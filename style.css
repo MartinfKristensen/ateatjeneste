@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav.top {
+  background: transparent;
+}
+
+.nav {
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000030;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.5s ease-in;
+}
+
+.nav a {
+  margin: 20px;
+  text-decoration: none;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.nav a:hover {
+  background: #00000015;
+}
+
+.del1,
+.del2,
+.del3 {
+  min-height: 100vh;
+}
+
+.del1 {
+  background: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.del1 .text {
+  width: 70%;
+}
+
+.del2 {
+  background: #333;
+  display: flex;
+  flex-direction: row;
+}
+
+.del2 .bilder {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.del2 img {
+  width: 30%;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.del2 img:hover {
+  opacity: 95%;
+  cursor: pointer;
+}
+
+.del3 {
+  background: yellow;
+}
+
+.del3 {
+  background: yellow;
+  font-size: 25px;
+  margin: 0px 0 0px;
+  color: #000000;
+}
+
+.del3 .tekst {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+}
+
+.del3 .tekst h2 {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.del3 .tekst p {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
